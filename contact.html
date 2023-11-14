@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html" ><img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+        
+
+
+    </section>
+    
+<!-----Contact us--->
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61202.678334234544!2d80.5567745486328!3d16.5176446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35e51a0f7a0c23%3A0x2fe396a867be5d98!2sMy%20favourite%20location!5e0!3m2!1sen!2sin!4v1699995162020!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</section>
+
+
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <i class="fa-solid fa-house"></i>
+            <span>
+                <h5>
+                    XYZ Road, ABC Building
+                </h5>
+                <p>
+                    Bangalora, Karnataka, India
+                </p>
+            </span>
+            <i class="fa-solid fa-phone"></i>
+            <span>
+                <h5>
+                    +1 9023456778
+                </h5>
+                <p>
+                    monday to Saturday, 10AM to 6PM
+                </p>
+            </span>
+            <i class="fa-solid fa-envelope"></i>
+            <span>
+                <h5>
+                    Motioncutinternship@gmail.com
+                </h5>
+                <p>
+                    E-mail us your query
+                </p>
+            </span>
+        </div>
+        <div class="contact-col">
+            <fom action="" >
+                <input type="text" placeholder="Enter your name" required>
+                <input type="email" placeholder="Enter your email address" required>
+                <input type="text" placeholder="Enter your subject" required>
+                <textarea rows="8" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                
+            </fom>
+        </div>
+       
+    </div>
+    
+</section>
+
+
+
+
+
+
+
+
+
+
+<!----Footer-->
+
+</section>
+<section class="footer">
+    <h4>About Us</h4>
+    <p>
+        A text is a passage of words that conveys a set of meanings to the person who is reading it.<br> It's a body of written work, in various forms and structures, that can be words, phrases and sentences that piece together a passage of written work.
+    </p>
+    <p>Copyrights@2023</p>
+</section>
+
+
+
+<!-----Java script-->
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
